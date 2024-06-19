@@ -1,0 +1,7 @@
+{
+  "name": "myAppLoader",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
