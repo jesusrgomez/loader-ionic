@@ -1,15 +1,17 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>gallery</ion-title>
+    <!-- <ion-img src="assets/img/gallery.jpg" style="width: 40px; height: 40px; margin-left: 10px;"></ion-img> -->
+    <ion-title>Galeria</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">gallery</ion-title>
+      <ion-title size="large">{{title}}</ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-button class="mt-2 p-2" (click)="back()">Regresar Home</ion-button>
-
+  <ion-toolbar>
+    <ion-button class="mt-2 p-2" (click)="back()">Regresar a Home</ion-button>
+  </ion-toolbar>
 </ion-content>

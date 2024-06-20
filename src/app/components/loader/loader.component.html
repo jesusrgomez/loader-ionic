@@ -1,11 +1,13 @@
 <ion-content [fullscreen]="true" *ngIf="myImg1">
   <ion-toolbar>
-    <ion-title>Loading... </ion-title>
-    <ion-img src="assets/img/ionic.jpg" alt="imagen1 Ionic"></ion-img>
+    <ion-img src="assets/img/loader.gif.gif" alt="imagen1 Ionic" style="width: 100%; height: 100%;"></ion-img>
+    <ion-title> Loading...</ion-title>
   </ion-toolbar>
 </ion-content>
 
 <ion-content [fullscreen]="true" *ngIf="myImg2" >
-  <ion-title>Loading... </ion-title>
-  <img src="assets/img/angular.jpg" alt="imagen2 Angular" style="width: 100%; height: 100%;">
+  <ion-toolbar>
+    <ion-img src="assets/img/loader2.gif" alt="imagen2 Angular"></ion-img>
+    <ion-title>Espere un momento... </ion-title>
+  </ion-toolbar>
 </ion-content>
